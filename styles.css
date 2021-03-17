@@ -1,0 +1,40 @@
+	body{
+  background-image:url('https://images.wallpaperscraft.com/image/forms_shapes_light_color_35091_1920x1080.jpg');
+  background-size:cover;
+  margin:25px;
+  padding:20px;
+  color:white;
+  text-align:center;
+}
+
+label{
+	float:left;
+}
+
+
+
+input:valid {
+  border: 5px solid green;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:focus{
+  border:5px solid orange;
+}
+
+.table{
+  border:1px solid white;
+}
+
+
+
+@media screen and (min-width:600px){
+  	.container{
+  		max-width:500px;
+  		padding: 20px;
+  	}
+
+  
